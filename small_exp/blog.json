@@ -1,0 +1,66 @@
+[
+    {
+        "indivisible tag": [
+            "<a class=\"menu-item menu-item-home\" href=\"https://blog.lirqs.com/\">Home</a>",
+            "<a class=\"menu-item menu-item-about\" href=\"https://blog.lirqs.com/about/\">About</a>",
+            "<a class=\"menu-item menu-item-collection\" href=\"https://blog.lirqs.com/tag/getting-started/\">Collection</a>",
+            "<a class=\"menu-item menu-item-author\" href=\"https://blog.lirqs.com/author/ghost/\">Author</a>",
+            "<a class=\"menu-item menu-item-portal\" href=\"https://blog.lirqs.com/portal/\">Portal</a>"
+        ],
+        "text_child": [
+            "Home",
+            "About",
+            "Collection",
+            "Author",
+            "Portal"
+        ],
+        "image_child": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "href_child": [
+            "https://blog.lirqs.com/",
+            "https://blog.lirqs.com/about/",
+            "https://blog.lirqs.com/tag/getting-started/",
+            "https://blog.lirqs.com/author/ghost/",
+            "https://blog.lirqs.com/portal/"
+        ],
+        "date_time_child": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "url": [
+            "https://blog.lirqs.com",
+            "https://blog.lirqs.com/",
+            "https://blog.lirqs.com/about/",
+            "https://blog.lirqs.com/tag/getting-started/",
+            "https://blog.lirqs.com/author/ghost/",
+            "https://blog.lirqs.com/portal/",
+            "https://www.facebook.com/ghost",
+            "https://twitter.com/ghost",
+            "/tere-sang-yaara/",
+            "/meherbani-song/",
+            "/lala-bheemla-song/",
+            "/baarishein/",
+            "/stages-of-music-production-by-the-popular-musicians/",
+            "/life-history-of-top-10-best-musicians-in-india/",
+            "/magical-lyrics-by-the-popular-lyricists-2021/",
+            "/a-diary-of-top-10-young-musicians-in-india/",
+            "/siva-shankar-master-dance-choreographer-and-actor/",
+            "/sirivennela-sitarama-sastry/",
+            "/page/2/",
+            "https://blog.lirqs.com/privacy/",
+            "https://blog.lirqs.com/contact/",
+            "https://blog.lirqs.com/contribute/",
+            "https://ghost.org/"
+        ]
+    }
+]
