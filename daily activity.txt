@@ -1,0 +1,43 @@
+For 27/04/2023 meeting
+======================
+
+
+different people use different tags and structure 
+        It took some time to understand the structure with different pages
+                at some point of time came to an idea that anchor tags could help to find the content
+----------------------------------------------------------
+
+The idea is to find all anchor tags 
+        identify the common pattern which is repeating most
+        ex :
+                https://www.imdb.com/title/tt0111161/
+                https://www.imdb.com/title/tt0068646/
+                        here title is repeating 
+        when we identify the pattern we could consolidate all the pattern in an list/array
+                we could use them for extracting the remaining content
+
+
+through anchor tags we directly navigate to some content 
+approach 1 : through anchor tag find its siblings
+                drawback : sibling may not be having content or it is inside another tag so hard to get in this situation
+approach 2 : from anchor tag back to parent tag and 
+                                        get all child tags
+                                        all these child tags having content
+                challenge : as coming from parent tags 
+                                direct sub tags may not having the information we need to go sub-tag -> sub-tag -> sub-tag .....-> sub-tag
+                                        we don't know which tag having the information 
+
+after having some considerations we could form an x-path and extract the data
+
+doing hard coding to analysis and understand all these things
+
+
+if the content not having anchor tags in some way in the content the total thing fails ---> we need to find some other approach
+
+
+28/4/2023
+---------
+we have 3 different situations
+                1. direct tags from page
+                2. making it structured url
+                3. finding important tags
