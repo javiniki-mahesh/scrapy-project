@@ -1,0 +1,38 @@
+# ---------making lists of same length ------------------------- #
+            # max_child = max(len(text_child),
+            #                 len(image_child),
+            #                 len(href_child),
+            #                 len(date_time_child),
+            #                 len(indv_tag))
+            
+            # if len(text_child) == max_child:
+            #     image_child.extend(['']*(max_child-len(image_child)))
+            #     href_child.extend(['']*(max_child-len(href_child)))
+            #     date_time_child.extend(['']*(max_child-len(date_time_child)))
+            #     indv_tag.extend(['']*(max_child-len(indv_tag)))
+
+            # if len(image_child) == max_child:
+            #     text_child.extend(['']*(max_child-len(text_child)))
+            #     href_child.extend(['']*(max_child-len(href_child)))
+            #     date_time_child.extend(['']*(max_child-len(date_time_child)))
+            #     indv_tag.extend(['']*(max_child-len(indv_tag)))
+            
+            # if len(href_child) == max_child:
+            #     text_child.extend(['']*(max_child-len(text_child)))
+            #     image_child.extend(['']*(max_child-len(image_child)))
+            #     date_time_child.extend(['']*(max_child-len(date_time_child)))
+            #     indv_tag.extend(['']*(max_child-len(indv_tag)))
+
+            # if len(date_time_child) == max_child:
+            #     text_child.extend(['']*(max_child-len(text_child)))
+            #     image_child.extend(['']*(max_child-len(image_child)))
+            #     href_child.extend(['']*(max_child-len(href_child)))
+            #     indv_tag.extend(['']*(max_child-len(indv_tag)))
+
+            # if len(indv_tag) == max_child:
+            #     text_child.extend(['']*(max_child-len(text_child)))
+            #     image_child.extend(['']*(max_child-len(image_child)))
+            #     href_child.extend(['']*(max_child-len(href_child)))
+            #     date_time_child.extend(['']*(max_child-len(date_time_child)))
+
+                                                                # ---------making lists of same length ------------------------- #
