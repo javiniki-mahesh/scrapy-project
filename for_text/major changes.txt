@@ -1,0 +1,64 @@
+def all_data(imp_u, indv_tag, text_child, image_child, href_child, date_time_child):
+                return {
+                    'url' : imp_u,
+                    'indivisible tag' : indv_tag,
+                    'text_child' : text_child,
+                    'image_child' : image_child,
+                    'href_child' : href_child,
+                    'date_time_child' : date_time_child
+                }
+----->This above function moved from text.py to single_page.py as classes and objects as 
+class All_data:
+    def all_data_element_wise(self,imp_u, indv_tag, text_child, image_child, href_child, date_time_child):
+        return {
+            'url' : imp_u,
+            'indivisible tag' : indv_tag,
+            'text_child' : text_child,
+            'image_child' : image_child,
+            'href_child' : href_child,
+            'date_time_child' : date_time_child
+        }
+----->To call from text.py
+all_data_obj = All_data()
+            yield all_data_obj.all_data_element_wise(imp_u, indv_tag, text_child, image_child, href_child, date_time_child)
+
+
+------> Not development but to understand code
+                                       to understand the urls lists
+        yield{
+            'original' : original_anchor_links,
+            'urls list with pattern' : original_helping_url, # urls list with pattern
+            'modified' : url_to_extract, # by using this we are extracting if pattern is not present
+            'after removing unwanted urls' : after_removing_unwanted_urls
+        }
+                
+        yield{
+            'original anchor links ': original_anchor_links,
+            'base anchor links ' : base_anchor_links,
+            'important url' : imp_urls,
+            'com list' : com_list,
+            'non com list' : non_com_list,
+            'pattern list' : pattern_list,
+            'l' : l,
+            'original helping url' : original_helping_url
+        }
+
+
+-----> The below is moved from text to single_page
+yield{'text child': all_text_child,
+            'image child': all_image_child,
+            'href child': all_href_child,
+            'date_time child': all_date_time_child,
+            'indv_tag': all_indv_tag,
+            'url': url_to_extract
+            }
+
+-----> The below is moved from text to single_page
+yield {
+                'url' : imp_u,
+                'indivisible tag' : indv_tag,
+                'text_child' : text_child,
+                'image_child' : image_child,
+                'href_child' : href_child,
+                'date_time_child' : date_time_child
+            }
